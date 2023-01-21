@@ -12,9 +12,8 @@ namespace Rock_Paper_Scissors
 
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.Write("Choose [r]ock, [p]aper, [s]cissors: ");
-            Console.ResetColor();
-
             string playerInput = Console.ReadLine();
+            Console.ResetColor();
 
             if (playerInput == "r" || playerInput == "R" || playerInput == "rock" || playerInput == "Rock")
             {
